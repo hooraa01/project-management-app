@@ -1,0 +1,9 @@
+{
+    "python.analysis.exclude": [
+        "**/node_modules",
+        "**/frontend",
+        "**/dist",
+        "**/build"
+    ],
+    "python.analysis.extraPaths": ["./backend"]
+}
