@@ -4,7 +4,6 @@
     "builder": "NIXPACKS"
   },
   "deploy": {
-    "startCommand": "gunicorn --directory backend app:app",
-    "restartPolicyType": "ON_FAILURE"
+    "startCommand": "gunicorn --directory backend app:app"
   }
 }
